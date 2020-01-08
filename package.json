@@ -18,6 +18,7 @@
       "build:once": "npx tsc",
       "build:watch": "npx tsc -w --preserveWatchOutput",
       "build:production": "npx tsc --outDir './build'",
-      "test": "mocha -r ts-node/register **/*.spec.ts"
+      "test": "mocha -r ts-node/register **/*.spec.ts",
+      "cypress:open": "cypress open"
    }
 }
